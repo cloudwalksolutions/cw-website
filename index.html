@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CloudWalk Solutions</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .fade-in {
+      animation: fadeIn ease 1.2s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-white to-sky-100 text-gray-800 font-sans">
+  <!-- Header -->
+  <header class="p-6 flex items-center justify-between bg-gradient-to-r from-sky-100 via-white to-sky-100 shadow-md sticky top-0 z-50 border-b border-sky-200">
+    <div class="flex items-center gap-3">
+      <img src="./cloudwalk-logo.png" alt="CloudWalk Logo" class="h-16 w-auto">
+      <span class="text-2xl font-semibold tracking-wide text-sky-700">CloudWalk</span>
+    </div>
+    <nav>
+      <ul class="flex gap-6 text-sm font-medium">
+        <li><a href="#about" class="hover:text-sky-600 transition-colors duration-200">About</a></li>
+        <li><a href="#principles" class="hover:text-sky-600 transition-colors duration-200">Principles</a></li>
+        <li><a href="#services" class="hover:text-sky-600 transition-colors duration-200">Services</a></li>
+        <li><a href="#projects" class="hover:text-sky-600 transition-colors duration-200">Projects</a></li>
+        <li><a href="#contact" class="hover:text-sky-600 transition-colors duration-200">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-24 px-4 bg-gradient-to-br from-sky-50 to-white fade-in">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4 tracking-tight">We Build Software That Understands You</h1>
+    <p class="text-lg max-w-2xl mx-auto text-gray-600">CloudWalk is not just a dev shop. We learn your business, build the right thing, and walk with you every step of the way.</p>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-20 px-6 max-w-4xl mx-auto fade-in">
+    <h2 class="text-3xl font-semibold mb-6 border-b pb-2 border-sky-100">About Us</h2>
+    <p class="text-gray-700 leading-relaxed text-lg">
+      We are a small team of engineers and problem solvers who believe that software should be elegant, understandable, and impactful. Our work spans from prototypes and MVPs to production-grade SaaS systems — always grounded in real business needs. We're not here to hand you an app and walk away. We're here to stay close, adapt fast, and deliver continuously.
+    </p>
+  </section>
+
+  <!-- Principles -->
+  <section id="principles" class="bg-white py-20 px-6 max-w-4xl mx-auto fade-in">
+    <h2 class="text-3xl font-semibold mb-6 border-b pb-2 border-sky-100">Principles</h2>
+    <ul class="list-disc pl-6 space-y-3 text-gray-700 text-lg">
+      <li>We adhere to Agile methodologies in both spirit and practice, prioritizing adaptability and collaboration.</li>
+      <li>All development is rooted in Test-Driven Development (TDD) to ensure reliability and maintainability.</li>
+      <li>Our code is structured using SOLID principles and modular design patterns to support scalability.</li>
+      <li>Maintainability and extensibility are core objectives in every solution we architect.</li>
+      <li>We promote client ownership by delivering solutions that are transparent, documented, and easy to operate independently.</li>
+    </ul>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-20 px-6 max-w-4xl mx-auto fade-in">
+    <h2 class="text-3xl font-semibold mb-6 border-b pb-2 border-sky-100">Services</h2>
+    <ul class="list-disc pl-6 space-y-3 text-gray-700 text-lg">
+      <li><strong>App Development:</strong> From prototype to production, tailored for your business goals.</li>
+      <li><strong>CRM Enablement:</strong> Optimize your sales, operations, and visibility with platforms like HubSpot or Attio.</li>
+      <li><strong>Workforce Enablement:</strong> Configure productivity suites like Google Workspace or Microsoft Teams.</li>
+      <li><strong>Technical Architecture & Mentorship:</strong> Guidance and implementation of scalable, maintainable systems.</li>
+      <li><strong>Self-Hosting & Ownership:</strong> We help you take full ownership of your platform when you're ready.</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-20 px-6 max-w-4xl mx-auto fade-in">
+    <h2 class="text-3xl font-semibold mb-6 border-b pb-2 border-sky-100">Projects</h2>
+    <ul class="space-y-4 text-gray-700 text-lg">
+      <li><strong>Boatload</strong>: A marina management SaaS tailored for inland lake operations. From job scheduling to billing, it’s built to scale.</li>
+      <li><strong><a href="https://luckyswingz.com" class="text-sky-600 hover:underline">LuckySwingz</a></strong>: Indoor golf lounge software, complete with self-service tools and a custom AI concierge.</li>
+      <li><strong><a href="https://obrienharris.com" class="text-sky-600 hover:underline">O'Brien Harris</a></strong>: High-end cabinetry business support including CRM implementation, process digitization, and system architecture.</li>
+      <li><strong><a href="https://theboarderline.net" class="text-sky-600 hover:underline">The Boarder Line</a></strong>: Strategic enablement and SaaS launch support for a lake operations and service business.</li>
+      <li><strong>TwoFit</strong>: A mobile app focused on gym accountability and partner matching, designed to help users stay consistent, track progress, and support each other.</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-sky-50 py-20 px-6 max-w-4xl mx-auto fade-in">
+    <h2 class="text-3xl font-semibold mb-6 border-b pb-2 border-sky-100">Contact</h2>
+    <p class="mb-2 text-lg">Walker O'Brien and the CloudWalk Team</p>
+    <p class="mb-2 text-lg">Email: <a href="mailto:walker.obrien@cloudwalksolutions.io" class="text-sky-600 hover:underline">walker.obrien@cloudwalksolutions.io</a></p>
+    <p class="text-lg">LinkedIn: <a href="https://www.linkedin.com/in/walkerobrien" target="_blank" class="text-sky-600 hover:underline">walkerobrien</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-8 px-4 text-sm bg-gradient-to-r from-white via-sky-50 to-white text-gray-500 border-t border-sky-100">
+    <div class="mb-2">&copy; 2025 CloudWalk Solutions. All rights reserved.</div>
+    <div class="text-xs">Proudly built with care and coffee.</div>
+  </footer>
+</body>
+</html>
